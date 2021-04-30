@@ -63,7 +63,7 @@ const SearchContainer = (props) => {
         <input className="test" type="text" value={zip} onChange={(e) => setZip(e.target.value)} />
         <input type="submit" value="Search" />
       </form>
-      <div id="zip-error">{zipError}</div>
+      <div className="zip-error">{zipError}</div>
     </div>
   );
 };

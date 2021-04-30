@@ -70,4 +70,3 @@ describe('Server Side Functionality', () => {
           .expect(200));
     });
   });
-});

@@ -26,8 +26,9 @@ const USMap = (props) => {
           d={stateData.shape}
           onMouseOver={(event) => {
             console.log(event.target);
-            event.target.style.fill = '#7dc882';
-
+            if (gState.name !== stateData.name) {
+              event.target.style.fill = '#7dc882';
+            }
           }}
           onClick={
             () => {

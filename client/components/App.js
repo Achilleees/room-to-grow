@@ -147,7 +147,7 @@ const App = () => {
           Create Account
         </button>
 
-        <div>{info}</div>
+        <div className="zip-error">{info}</div>
 
       </div>
 
